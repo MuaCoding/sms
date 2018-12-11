@@ -1,0 +1,33 @@
+
+
+$colors: (
+  primary:    #228aff,
+  secondary:  #ff8f22,
+  danger:     #fe2f34,
+  light:      #f9f9f9,
+  dark:       #222222
+);
+
+$text: (
+  light:      #a4abb0,
+  normal:     #222233
+);
+
+$border: (
+  light:      #eeeeee,
+  normal:     #dddddd
+);
+
+
+// Shared Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass variables found in Ionic's source scss files.
+// To view all the possible Ionic variables, see:
+// http://ionicframework.com/docs/theming/overriding-ionic-variables/
+
+$background-color: #f9f9f9;
+$text-color: #222233;
+$content-gutter: 16px;
+$content-gutter-double: $content-gutter * 2;
+$content-gutter-half: $content-gutter / 2;

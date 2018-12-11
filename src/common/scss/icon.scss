@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Ionicons';
+  /* project id 776839 */
+  src: url('//at.alicdn.com/t/font_776839_247qi8yuv8t.eot');
+  src: url('//at.alicdn.com/t/font_776839_247qi8yuv8t.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_776839_247qi8yuv8t.woff') format('woff'), url('//at.alicdn.com/t/font_776839_247qi8yuv8t.ttf') format('truetype'), url('//at.alicdn.com/t/font_776839_247qi8yuv8t.svg#Ionicons') format('svg');
+}
+
+.ivu-btn .ivu-icon {
+  line-height: 1;
+}
+
+.ivu-btn .ivu-icon+span{
+  margin-left: 4px;
+}
+
+.ivu-icon-refresh:before {
+  content: "\e607";
+}
+
+.ivu-icon-check:before {
+  content: "\e6bc";
+}

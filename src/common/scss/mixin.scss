@@ -1,0 +1,48 @@
+@mixin linesClamp($line: 2, $lineHeight: 1.4em) {
+  display: -webkit-box;
+  overflow: hidden;
+  max-height: $line * $lineHeight;
+  line-height: $lineHeight;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+}
+
+%textOverflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+%fullBlock {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+%blockCenter {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  > div {
+    display: block;
+  }
+}
+
+@mixin clearfix() {
+
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+
+  &:after {
+    clear: both;
+  }
+}
